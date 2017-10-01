@@ -1,15 +1,28 @@
-html, 
+html,
 body {
     height: 100%;
     margin: 0 !important;
     padding: 0 !important;
 }
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
 
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
 #left_panel{
     margin: 0!important;
     padding: 0!important;
-    width: 20%; 
-    height: 100%; 
+    width: 20%;
+    height: 100%;
     background-color: #3498db;
     float: left;
 }
@@ -73,8 +86,8 @@ body {
 #contact-info{
     margin: 0!important;
     padding: 0!important;
-    width: 80%; 
-    height: 100%; 
+    width: 80%;
+    height: 100%;
     margin-top: 10px;
 }
 
@@ -109,7 +122,7 @@ body {
 #resume{
     margin: 0!important;
     padding: 0!important;
-    width: 80%; 
+    width: 80%;
     height: 25%;
     display: initial;
 }
