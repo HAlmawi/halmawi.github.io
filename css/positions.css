@@ -95,14 +95,14 @@ body {
     font-size: 28px;
     text-decoration: underline;
 }
-/*.page-content{
+.page-content{
   width: 100%;
   height: 100%;
-}*/
-/*#post-list{
+}
+#post-list{
     width: 80%;
     height: 100%;
-}*/
+}
 #panel_button:hover{
     display: block;
     background-color: Transparent;
