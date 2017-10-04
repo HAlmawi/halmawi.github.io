@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="home">
+
+      <ul class="post-list">
+          {% for post in site.posts %}
+          <li style="float:left">
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+              <h2>
+                  <div class="post-link">{{ post.title }}</div>
+              </h2>
+
+              <img style="float:left;width:48%;" src="{{post.image}}"/>
+              <div style="float:right;width:50%;">
+                  {{post.excerpt}}
+                  {% if post.paper != nil %}
+                  <a href="{{post.paper}}">Paper</a>
+                  {% endif %}
+                  {% if post.poster != nil %}
+                  <a href="{{post.poster}}">Poster</a>
+                  {% endif %}
+                  {% if post.slides != nil %}
+                  <a href="{{post.slides}}">Slides</a>
+                  {% endif %}
+                  {% if post.data != nil %}
+                  <a href="{{post.data}}">Data</a>
+                  {% endif %}
+                  {% if post.code != nil %}
+                      <a href="{{post.code}}">Code</a>
+                  {% endif %}
+              </div>
+          </li>
+          {% endfor %}
+      </ul>
+
+
+</div>

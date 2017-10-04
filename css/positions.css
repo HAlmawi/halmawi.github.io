@@ -22,11 +22,15 @@ body {
   height: 100%;
   margin-left: -50px;
 }
+#body-div{
+  width: 100%;
+  height: 100vh;
+}
 #left_panel{
     margin: 0!important;
     padding: 0!important;
     width: 20%;
-    height: 100%;
+    height: 100vh;
     background-color: #34495e;
     float: left;
 }
@@ -91,7 +95,14 @@ body {
     font-size: 28px;
     text-decoration: underline;
 }
-
+/*.page-content{
+  width: 100%;
+  height: 100%;
+}*/
+/*#post-list{
+    width: 80%;
+    height: 100%;
+}*/
 #panel_button:hover{
     display: block;
     background-color: Transparent;
@@ -203,17 +214,9 @@ body {
     overflow: hidden;
 }
 
-ul
-{
-    margin: 0!important;
-    border: 0;
-    list-style-type: none;
-}
-
 li{
-    margin: 0!important;
-    border: 0;
+    width: 80%;
+    /*float: left;*/
     font-family: 'Source Sans Pro', sans-serif;
     color: #7f8c8d;
-    padding-left: 30%;
 }

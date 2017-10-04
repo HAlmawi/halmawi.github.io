@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Street View House Numbers Augmentation"
+date:   2017-10-03 14:45:17
+categories: machine learning
+image: https://raw.githubusercontent.com/HAlmawi/halmawi.github.io/master/_assets/heroes.png
+data: http://ufldl.stanford.edu/housenumbers/
+---
+Developed survey of machine learning models implemented using Matlab and Python in order to assess the effects of augmenting Street View House Numbers dataset. Achieved 81% classification accuracy.

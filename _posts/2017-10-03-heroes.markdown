@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Heroes of the Storm Game	Outcome Predictor"
+date:   2017-10-03 14:45:17
+categories: machine learning
+image: https://raw.githubusercontent.com/HAlmawi/halmawi.github.io/master/_assets/heroes.png
+data: https://www.hotslogs.com/Info/API
+---
+Organized and cleaned raw data in order to select and architect features for training. Trained classification model to predict if a team composition will win a game	by up to 83% accuracy.

@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Test 1"
-date:   2017-10-2 15:47:00
-categories: machine learning
-image: 
----
-Test test
